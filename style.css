@@ -133,7 +133,7 @@ section {
     position: relative;
 }
 
-.about .row .img-container img {
+.about .row .img-container video {
     width: 100%;
     border: 1.5rem solid #fff;
     border-radius: .5rem;
