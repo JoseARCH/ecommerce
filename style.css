@@ -89,9 +89,10 @@ section {
     display: flex;
     align-items: center;
     min-height: 100vh;
-    background: url('image/flower-cherry.jpg') no-repeat;
+    background: url('image/flamenco-dresses-chair-with-pink-background.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 7.5rem;
 }
 
 .home .content {
@@ -115,6 +116,71 @@ section {
     color: var(--gray);
     padding: 1rem 0;
     line-height: 1.5;
+}
+
+/*--- about ---*/
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+}
+
+.about .row .img-container {
+    flex: 1 1 40rem;
+    position: relative;
+}
+
+.about .row .img-container img {
+    width: 100%;
+    border: 1.5rem solid #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .row .img-container h3 {
+    position: absolute;
+    top: 50%; transform: translateY(-50%);
+    font-size: 3rem;
+    background: #fff;
+    width: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.about .row .content {
+    flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+    font-size: 3rem;
+    color: var(--gray);
+}
+
+.about .row .content p {
+    font-size: 1.5rem;
+    color: #999;
+    padding: .5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color: var(--gray);
+    padding: 1rem;
+    margin: 2rem 0;
+    background: rgba(255, 51, 153, 0.096);
+}
+
+.heading span {
+    color: var(--pink);
 }
 
 .btn {
@@ -195,5 +261,9 @@ section {
 {
     html {
         font-size: 50%;
+    }
+
+    .heading {
+        font-size: 3rem;
     }
 }
